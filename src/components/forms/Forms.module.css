@@ -1,0 +1,60 @@
+.forms {
+
+}
+
+.forms legend {
+    font-size: 1.2rem;
+}
+
+.forms fieldset {
+    margin-bottom: 0.6rem;
+}
+
+.forms fieldset div {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.forms fieldset div label:not(:first-child) {
+    margin-top: 0.8rem;
+}
+.forms fieldset div label {
+    margin-bottom: 0.3rem;
+    
+}
+
+.forms fieldset div input{
+    padding: 0.7rem;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.forms fieldset div select{
+    padding: 0.7rem;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.forms button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 15rem;
+    
+}
+
+.forms form {
+    margin-inline: auto ;
+    
+}
+
+.forms form article {
+    text-align: center;
+  }

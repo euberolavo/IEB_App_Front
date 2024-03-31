@@ -1,0 +1,25 @@
+.background-container {
+  position: relative;
+  background-image: url('https://i.imgur.com/cP7Hq3m.jpg');
+  background-size: cover; /* Define o tamanho das imagens (pode ser diferente para cada uma) */
+  background-repeat: no-repeat;  /* Evita a repetição da imagem */
+  background-attachment: fixed;
+  vertical-align: baseline;
+/* Largura total da viewport */
+  }
+
+  /* .background-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('https://i.imgur.com/eN4394J.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(-15deg);
+    z-index: 1; 
+    width: 80%; 
+    height: auto; 
+  } */
