@@ -10,13 +10,13 @@ export default function HomePage() {
         <figure className={Style.figure}>
           <img
             className={Style.image}
-            src="https://i.imgur.com/TgKvpWN.png"
+            src="https://i.imgur.com/WbXgNP9.png"
             alt="Logo Encontro com Deus"
           />
         </figure>
-        <CardsList href="/peoples/peoples">Lista de Pessoas</CardsList>
+        {/* <CardsList href="/peoples/peoples">Lista de Pessoas</CardsList>
         <CardsList href="/rooms/rooms">Lista de Quartos</CardsList>
-        <CardsList href="/teams/teams">Equipes</CardsList>
+        <CardsList href="/teams/teams">Equipes</CardsList> */}
         <CardsList href="/registration/registration">Cadastros</CardsList>
       </>
     </div>

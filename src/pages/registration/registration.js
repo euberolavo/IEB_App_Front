@@ -8,7 +8,7 @@ export default function Peoples() {
         <CardsList href="/registration/registrationParticipants/registrationParticipants">
           Cadastro de Pessoas
         </CardsList>
-        <CardsList href="/registration/registrationRoom/registrationRoom">
+        {/* <CardsList href="/registration/registrationRoom/registrationRoom">
           Cadastro de Quartos
         </CardsList>
         <CardsList href="/registration/leaderRoom/leaderRoom">
@@ -22,7 +22,7 @@ export default function Peoples() {
         </CardsList>
         <CardsList href="/registration/workerTeams/workerTeams">
           Cadastro de Trabalhadores nas Equipes
-        </CardsList>
+        </CardsList> */}
       </div>
     </div>
   );
